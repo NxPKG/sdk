@@ -21,7 +21,7 @@ declare var __NXPKG_SERVER_ORIGIN__: string | undefined;
 /**
  * Origin of the NxPKG instance
  */
-export const DEFAULT_ORIGIN: string = __NXPKG_SERVER_ORIGIN__ || 'https://nxpkg.com';
+export const DEFAULT_ORIGIN: string = __NXPKG_SERVER_ORIGIN__ || 'https://nxpkg.khulnasoft.com';
 
 /**
  * List of supported template names.

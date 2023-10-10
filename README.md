@@ -4,11 +4,11 @@ The NxPKG JavaScript SDK lets you programmatically create NxPKG projects to be o
 
 ## Documentation
 
-Check out our SDK documentation on developer.nxpkg.com:
+Check out our SDK documentation on developer.nxpkg.khulnasoft.com:
 
-- [SDK overview](https://developer.nxpkg.com/platform/api/javascript-sdk)
-- [Options reference](https://developer.nxpkg.com/platform/api/javascript-sdk-options)
-- [Controlling embeds](https://developer.nxpkg.com/platform/api/javascript-sdk-vm)
+- [SDK overview](https://developer.nxpkg.khulnasoft.com/platform/api/javascript-sdk)
+- [Options reference](https://developer.nxpkg.khulnasoft.com/platform/api/javascript-sdk-options)
+- [Controlling embeds](https://developer.nxpkg.khulnasoft.com/platform/api/javascript-sdk-vm)
 
 ## Reporting issues
 
@@ -32,8 +32,8 @@ npm test
 # Run end-to-end tests with mock server
 npm run test:e2e
 
-# Run end-to-end tests against nxpkg.com
-NXPKG_SERVER_ORIGIN=https://nxpkg.com npm run test:e2e
+# Run end-to-end tests against nxpkg.khulnasoft.com
+NXPKG_SERVER_ORIGIN=https://nxpkg.khulnasoft.com npm run test:e2e
 
 # Generate the 'bundles' and 'types' folders
 npm run build

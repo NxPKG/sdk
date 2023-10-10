@@ -55,7 +55,7 @@ describe('openProjectId', () => {
     const openSpy = vi.spyOn(window, 'open');
 
     openProjectId('js');
-    expect(openSpy).toBeCalledWith('https://nxpkg.com/edit/js', '_blank');
+    expect(openSpy).toBeCalledWith('https://nxpkg.khulnasoft.com/edit/js', '_blank');
 
     openProjectId('js', {
       origin: 'https://example.com',
@@ -73,11 +73,11 @@ describe('openGithubProject', () => {
     const openSpy = vi.spyOn(window, 'open');
 
     openGithubProject('nxpkg/sdk');
-    expect(openSpy).toBeCalledWith('https://nxpkg.com/github/nxpkg/sdk', '_blank');
+    expect(openSpy).toBeCalledWith('https://nxpkg.khulnasoft.com/github/nxpkg/sdk', '_blank');
 
     openGithubProject('nxpkg/docs', { newWindow: false, hideExplorer: true });
     expect(openSpy).toBeCalledWith(
-      'https://nxpkg.com/github/nxpkg/docs?hideExplorer=1',
+      'https://nxpkg.khulnasoft.com/github/nxpkg/docs?hideExplorer=1',
       '_self'
     );
 

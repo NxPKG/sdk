@@ -148,7 +148,7 @@ export class VM {
      * In WebContainers-based projects, the origin will always be `null`;
      * try using `vm.preview.getUrl` instead.
      *
-     * @see https://developer.nxpkg.com/guides/user-guide/available-environments
+     * @see https://developer.nxpkg.khulnasoft.com/guides/user-guide/available-environments
      */
     origin: '' as string | null,
 
