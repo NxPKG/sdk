@@ -1,0 +1,9 @@
+{
+  "name": "sdk-example-open-embed-github-project",
+  "description": "Demo of the NxPKG SDK's methods for opening & embedding Github projects.",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@nxpkg/sdk": "^1.8.1"
+  }
+}
