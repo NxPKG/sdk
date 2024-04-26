@@ -1,5 +1,5 @@
 {
-  "name": "@nxpkg/sdk",
+  "name": "@nx-pkg/sdk",
   "version": "1.9.0",
   "description": "SDK for generating and embedding NxPKG projects.",
   "license": "MIT",

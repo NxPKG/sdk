@@ -1,4 +1,4 @@
-# @nxpkg/sdk changelog
+# @nx-pkg/sdk changelog
 
 ## v1.9.0 (2023-04-04)
 
@@ -20,7 +20,7 @@
 
 ## v1.7.0 (2022-05-09)
 
-- TypeScript: improved the precision and inline documentation of types such as `Project`, `EmbedOptions`, `OpenOptions` and `VM`. Made those types directly importable with `import type { Project } from '@nxpkg/sdk'`. (https://github.com/nxpkg/core/pull/1775, https://github.com/nxpkg/core/pull/1779, https://github.com/nxpkg/core/pull/1837)
+- TypeScript: improved the precision and inline documentation of types such as `Project`, `EmbedOptions`, `OpenOptions` and `VM`. Made those types directly importable with `import type { Project } from '@nx-pkg/sdk'`. (https://github.com/nxpkg/core/pull/1775, https://github.com/nxpkg/core/pull/1779, https://github.com/nxpkg/core/pull/1837)
 - Added support for opening multiple files in an embedded projects with the `vm.editor.openFile` method. (https://github.com/nxpkg/core/pull/1810)
 - Added new methods to the `VM` class for controlling the embedded editor’s UI: `vm.editor.setCurrentFile`, `vm.editor.setTheme`, `vm.editor.setView`, `vm.editor.showSidebar`, `vm.preview.getUrl`, `vm.preview.setUrl`. (https://github.com/nxpkg/core/pull/1810, https://github.com/nxpkg/core/pull/1837)
 - Added new `showSidebar` option. (https://github.com/nxpkg/core/pull/1837)

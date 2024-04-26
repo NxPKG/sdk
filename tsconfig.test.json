@@ -4,8 +4,8 @@
     "composite": true,
     "tsBuildInfoFile": "./temp/tsbuildinfo",
     "paths": {
-      // Use local sources when demo and test pages import @nxpkg/sdk
-      "@nxpkg/sdk": ["./src/index.ts"],
+      // Use local sources when demo and test pages import @nx-pkg/sdk
+      "@nx-pkg/sdk": ["./src/index.ts"],
       "$src/*": ["./src/*"],
       "$test/*": ["./test/*"]
     }

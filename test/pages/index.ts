@@ -1,3 +1,3 @@
-import NxPKGSDK from '@nxpkg/sdk';
+import NxPKGSDK from '@nx-pkg/sdk';
 
 (window as any).NxPKGSDK = NxPKGSDK;

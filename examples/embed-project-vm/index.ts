@@ -1,4 +1,4 @@
-import sdk, { Project, VM } from '@nxpkg/sdk';
+import sdk, { Project, VM } from '@nx-pkg/sdk';
 
 import './styles.css';
 

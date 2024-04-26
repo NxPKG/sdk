@@ -1,4 +1,4 @@
-import sdk from '@nxpkg/sdk';
+import sdk from '@nx-pkg/sdk';
 
 import './styles.css';
 

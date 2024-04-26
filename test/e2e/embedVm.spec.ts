@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import type { Project } from '@nxpkg/sdk';
+import type { Project } from '@nx-pkg/sdk';
 
 test('vm.getFsSnapshot and vm.applyFsDiff', async ({ page }) => {
   await page.goto('/test/pages/blank.html');

@@ -4,6 +4,6 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@nxpkg/sdk": "^1.8.1"
+    "@nx-pkg/sdk": "^1.8.1"
   }
 }
