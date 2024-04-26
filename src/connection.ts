@@ -55,7 +55,7 @@ export class Connection {
         // If we've exceeded the max retries, fail this promise.
         if (attempts >= CONNECT_MAX_ATTEMPTS) {
           cleanup();
-          reject('Timeout: Unable to establish a connection with the NxPKG VM');
+          reject('Timeout: Unable to establish a connection with the NxPkg VM');
           // Remove the (now) failed connection from the connections array
           connections.forEach((connection, index) => {
             if (connection.id === this.id) {

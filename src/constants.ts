@@ -19,9 +19,9 @@ export const DEFAULT_FRAME_HEIGHT = 300;
 declare var __NXPKG_SERVER_ORIGIN__: string | undefined;
 
 /**
- * Origin of the NxPKG instance
+ * Origin of the NxPkg instance
  */
-export const DEFAULT_ORIGIN: string = __NXPKG_SERVER_ORIGIN__ || 'https://nxpkg.khulnasoft.com';
+export const DEFAULT_ORIGIN: string = __NXPKG_SERVER_ORIGIN__ || 'https://nxpkg.github.io';
 
 /**
  * List of supported template names.

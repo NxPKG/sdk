@@ -2,7 +2,7 @@ import sdk from '@nx-pkg/sdk';
 
 import './styles.css';
 
-// This opens https://nxpkg.khulnasoft.com/edit/css-custom-prop-color-values
+// This opens https://nxpkg.github.io/edit/css-custom-prop-color-values
 // in the current window with the Preview pane
 function openProject() {
   sdk.openProjectId('css-custom-prop-color-values', {
@@ -12,7 +12,7 @@ function openProject() {
 }
 
 //  This replaces the HTML element with
-// the id of "embed" with https://nxpkg.khulnasoft.com/edit/css-custom-prop-color-values embedded in an iframe.
+// the id of "embed" with https://nxpkg.github.io/edit/css-custom-prop-color-values embedded in an iframe.
 function embedProject() {
   sdk.embedProjectId('embed', 'css-custom-prop-color-values', {
     openFile: 'index.ts',

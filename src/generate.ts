@@ -14,7 +14,7 @@ function createHiddenInput(name: string, value: string) {
  * Encode file paths for use in input name attributes.
  * We need to replace square brackets (as used by Next.js, SvelteKit, etc.),
  * with custom escape sequences. Important: do not encodeURIComponent the
- * whole path, for compatibility with the NxPKG backend.
+ * whole path, for compatibility with the NxPkg backend.
  */
 function encodeFilePath(path: string) {
   return path.replace(/\[/g, '%5B').replace(/\]/g, '%5D');

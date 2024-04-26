@@ -25,7 +25,7 @@ export type {
 } from './interfaces';
 export type { FsDiff, VM } from './vm';
 
-const NxPKGSDK = {
+const NxPkgSDK = {
   connect,
   embedGithubProject,
   embedProject,
@@ -38,4 +38,4 @@ const NxPKGSDK = {
 // Export a single object with methods, for compatibility with UMD and CommonJS.
 // Ideally we would also have named exports, but that can create incompatibilities
 // with some bundlers. To revisit in v2?
-export default NxPKGSDK;
+export default NxPkgSDK;

@@ -1,6 +1,6 @@
 {
   "name": "sdk-example-open-embed-project-id",
-  "description": "Demo of the NxPKG SDK's methods for opening & embedding an existing NxPKG project",
+  "description": "Demo of the NxPkg SDK's methods for opening & embedding an existing NxPkg project",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
