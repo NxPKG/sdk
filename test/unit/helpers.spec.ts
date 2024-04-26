@@ -17,13 +17,13 @@ describe('embedUrl', () => {
 
   test('turns config into URL query parameters', () => {
     expect(embedUrl('/edit/test', { clickToLoad: true, openFile: 'index.js', theme: 'dark' })).toBe(
-      'https://nxpkg.khulnasoft.com/edit/test?embed=1&ctl=1&file=index.js&theme=dark'
+      'https://nxpkg.github.io/edit/test?embed=1&ctl=1&file=index.js&theme=dark'
     );
   });
 
   test('allows removing the embed=1 query parameter', () => {
     expect(embedUrl('/edit/test', { forceEmbedLayout: false })).toBe(
-      'https://nxpkg.khulnasoft.com/edit/test'
+      'https://nxpkg.github.io/edit/test'
     );
   });
 });
@@ -91,13 +91,13 @@ describe('openUrl', () => {
 
   test('turns config into URL query parameters', () => {
     expect(openUrl('/edit/test', { clickToLoad: true, openFile: ['index.js', 'README.md'] })).toBe(
-      'https://nxpkg.khulnasoft.com/edit/test?ctl=1&file=index.js&file=README.md'
+      'https://nxpkg.github.io/edit/test?ctl=1&file=index.js&file=README.md'
     );
   });
 
   test('allows adding the embed=1 query parameter', () => {
     expect(openUrl('/edit/test', { forceEmbedLayout: true })).toBe(
-      'https://nxpkg.khulnasoft.com/edit/test?embed=1'
+      'https://nxpkg.github.io/edit/test?embed=1'
     );
   });
 });
@@ -130,7 +130,7 @@ describe('replaceAndEmbed', () => {
   });
 
   test('replaces target element with iframe', () => {
-    const embedSrc = 'https://nxpkg.khulnasoft.com/edit/test?embed=1';
+    const embedSrc = 'https://nxpkg.github.io/edit/test?embed=1';
     const target = h('div', {
       id: 'embed',
       class: 'test',

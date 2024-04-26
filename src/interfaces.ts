@@ -4,13 +4,13 @@ export interface Project {
   title: string;
   description?: string;
   /**
-   * The project’s template name tells NxPKG how to compile and run project files.
+   * The project’s template name tells NxPkg how to compile and run project files.
    *
-   * Template values supported on https://nxpkg.khulnasoft.com include:
+   * Template values supported on https://nxpkg.github.io include:
    * - EngineBlock environment: `angular-cli`, `create-react-app`, `javascript`, `polymer`, `typescript`, `vue`
    * - WebContainers environment: `node`
    *
-   * @see https://developer.nxpkg.khulnasoft.com/guides/user-guide/available-environments
+   * @see https://developer.nxpkg.github.io/guides/user-guide/available-environments
    */
   template: ProjectTemplate;
   /**
@@ -28,7 +28,7 @@ export interface Project {
   dependencies?: ProjectDependencies;
   settings?: ProjectSettings;
   /**
-   * @deprecated Tags are ignored by the NxPKG SDK since v1.5.4
+   * @deprecated Tags are ignored by the NxPkg SDK since v1.5.4
    */
   tags?: string[];
 }
@@ -104,9 +104,9 @@ export interface ProjectOptions {
    */
   openFile?: OpenFileOption;
   /**
-   * Set the origin URL of your NxPKG EE server.
+   * Set the origin URL of your NxPkg EE server.
    *
-   * Defaults to `https://nxpkg.khulnasoft.com`.
+   * Defaults to `https://nxpkg.github.io`.
    */
   origin?: string;
   /**

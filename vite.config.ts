@@ -31,7 +31,7 @@ function libConfig(): UserConfig {
       sourcemap: true,
       minify: 'esbuild',
       lib: {
-        name: 'NxPKGSDK',
+        name: 'NxPkgSDK',
         entry: 'src/index.ts',
         formats: ['cjs', 'es', 'umd'],
         // Override the default file names used by Vite's “Library Mode”

@@ -8,7 +8,7 @@ export type ParamOptions = Omit<
 >;
 
 /**
- * URL parameter names supported by the NxPKG instance.
+ * URL parameter names supported by the NxPkg instance.
  *
  * A couple notes:
  *

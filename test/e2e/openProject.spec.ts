@@ -6,7 +6,7 @@ test('openProjectId can navigate in same tab', async ({ page }) => {
   await Promise.all([
     page.waitForNavigation({ waitUntil: 'commit' }),
     page.evaluate(() => {
-      window.NxPKGSDK.openProjectId('js', {
+      window.NxPkgSDK.openProjectId('js', {
         clickToLoad: true,
         newWindow: false,
         origin: 'https://example.com',
@@ -24,7 +24,7 @@ test('openProjectId can navigate in new tab', async ({ page }) => {
   const [popup] = await Promise.all([
     page.waitForEvent('popup'),
     page.evaluate(() => {
-      window.NxPKGSDK.openProjectId('js', {
+      window.NxPkgSDK.openProjectId('js', {
         newWindow: true,
         openFile: 'App.jsx',
         origin: 'https://example.com',
