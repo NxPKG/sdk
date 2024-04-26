@@ -42,7 +42,7 @@ export function getRequestHandler(
         id: data.id,
         payload: {
           previewOrigin:
-            projectContext.getProject().template === 'node' ? null : 'https://test.nxpkg.io',
+            projectContext.getProject().template === 'node' ? null : 'https://test.nxpkg.github.io',
         },
       };
       return response;
@@ -111,7 +111,7 @@ export function getAppStateContext(project: Project, options: ProjectOptions): A
   const state: AppState = {
     editorPanes: panes,
     currentFile: panes.flat()[0],
-    previewUrl: isNode ? undefined : 'https://test.nxpkg.io/',
+    previewUrl: isNode ? undefined : 'https://test.nxpkg.github.io/',
     theme: options.theme ?? 'default',
     view: options.view ?? 'default',
     sidebarVisible: options.showSidebar ?? false,

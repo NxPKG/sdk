@@ -1,5 +1,5 @@
 interface Window {
-  NxPKGSDK: typeof import('@nx-pkg/sdk').default;
+  NxPkgSDK: typeof import('@nx-pkg/sdk').default;
 }
 
-type NxPKGSDK = typeof import('@nx-pkg/sdk').default;
+type NxPkgSDK = typeof import('@nx-pkg/sdk').default;

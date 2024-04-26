@@ -4,7 +4,7 @@ test('embedProjectId', async ({ page }) => {
   await page.goto('/test/pages/blank.html');
 
   await page.evaluate(() => {
-    window.NxPKGSDK.embedProjectId('embed', 'js');
+    window.NxPkgSDK.embedProjectId('embed', 'js');
   });
 
   const iframe = page.locator('iframe');

@@ -6,7 +6,7 @@ let vm: VM | null = null;
 
 const project: Project = {
   title: 'Dynamically Generated Project',
-  description: 'Created with <3 by the NxPKG SDK!',
+  description: 'Created with <3 by the NxPkg SDK!',
   template: 'javascript',
   files: {
     'index.html': `<h1>SDK generated project</h1>`,

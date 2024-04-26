@@ -16,7 +16,7 @@ test('vm.getFsSnapshot and vm.applyFsDiff', async ({ page }) => {
   // Embed a project and retrieve a snapshot of its files
   const fs1 = await page.evaluate(
     async ([project]) => {
-      const vm = await window.NxPKGSDK.embedProject('embed', project);
+      const vm = await window.NxPkgSDK.embedProject('embed', project);
       const fs = await vm.getFsSnapshot();
       return fs;
     },
@@ -28,7 +28,9 @@ test('vm.getFsSnapshot and vm.applyFsDiff', async ({ page }) => {
 
   // Modify project files using the VM
   await page.evaluate(async () => {
-    const vm = await window.NxPKGSDK.connect(document.getElementById('embed') as HTMLIFrameElement);
+    const vm = await window.NxPkgSDK.connect(
+      document.getElementById('embed') as HTMLIFrameElement
+    );
     const currentFs = await vm.getFsSnapshot();
     await vm.applyFsDiff({
       destroy: ['styles.css'],
@@ -41,7 +43,9 @@ test('vm.getFsSnapshot and vm.applyFsDiff', async ({ page }) => {
 
   // Check that files were modified
   const fs2 = await page.evaluate(async () => {
-    const vm = await window.NxPKGSDK.connect(document.getElementById('embed') as HTMLIFrameElement);
+    const vm = await window.NxPkgSDK.connect(
+      document.getElementById('embed') as HTMLIFrameElement
+    );
     return await vm.getFsSnapshot();
   });
 

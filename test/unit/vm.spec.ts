@@ -15,7 +15,7 @@ async function getVm(project: Project, { delay = 0 }: { delay?: number } = {}) {
   };
 
   return new VM(channel.port1, {
-    previewOrigin: project.template === 'node' ? undefined : 'https://test.nxpkg.io',
+    previewOrigin: project.template === 'node' ? undefined : 'https://test.nxpkg.github.io',
   });
 }
 
@@ -224,7 +224,7 @@ describe('vm.editor', () => {
 describe('vm.preview', () => {
   test('has origin', async () => {
     const vm = await getVm(getTestProject());
-    expect(vm.preview.origin).toBe('https://test.nxpkg.io');
+    expect(vm.preview.origin).toBe('https://test.nxpkg.github.io');
   });
 
   test('has no origin (node project)', async () => {
@@ -255,7 +255,7 @@ describe('vm.preview', () => {
     await expect(vm.preview.setUrl('/about')).resolves.toBe(null);
 
     // So the URL is now changed
-    await expect(vm.preview.getUrl()).resolves.toBe('https://test.nxpkg.io/about');
+    await expect(vm.preview.getUrl()).resolves.toBe('https://test.nxpkg.github.io/about');
   });
 
   test('can only set a path', async () => {

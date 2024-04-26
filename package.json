@@ -1,9 +1,9 @@
 {
   "name": "@nx-pkg/sdk",
-  "version": "1.0.0",
-  "description": "SDK for generating and embedding NxPKG projects.",
+  "version": "1.9.0",
+  "description": "SDK for generating and embedding NxPkg projects.",
   "license": "MIT",
-  "author": "NX Pkg",
+  "author": "Nx Pkg",
   "homepage": "https://github.com/nxpkg/sdk",
   "repository": {
     "type": "git",

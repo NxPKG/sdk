@@ -2,7 +2,7 @@
 
 ## v1.9.0 (2023-04-04)
 
-- Moved the NxPKG SDK to a dedicated repository: https://github.com/nxpkg/sdk.
+- Moved the NxPkg SDK to a dedicated repository: https://github.com/nxpkg/sdk.
 - Added support for new options: `startScript`, `sidebarView` and `zenMode`. (https://github.com/nxpkg/sdk/pull/4)
 - Changed `project.description` to be optional. (https://github.com/nxpkg/sdk/pull/5)
 
@@ -12,7 +12,7 @@
 
 ## v1.8.1 (2022-11-10)
 
-- Fixed the case of the URL query parameters for the `hideDevTools` and `devToolsHeight` options, for backwards compatibility with NxPKG EE. (https://github.com/nxpkg/core/pull/2154)
+- Fixed the case of the URL query parameters for the `hideDevTools` and `devToolsHeight` options, for backwards compatibility with NxPkg EE. (https://github.com/nxpkg/core/pull/2154)
 
 ## v1.8.0 (2022-06-09)
 
@@ -63,7 +63,7 @@ _No known changes._
 
 ## v1.4.0 (2020-05-13)
 
-- Add `origin` option to `ProjectOptions` to allow embedding projects from NxPKG Enterprise Edition. (https://github.com/nxpkg/core/pull/1236)
+- Add `origin` option to `ProjectOptions` to allow embedding projects from NxPkg Enterprise Edition. (https://github.com/nxpkg/core/pull/1236)
 
 ## v1.3.0 (2019-02-06)
 

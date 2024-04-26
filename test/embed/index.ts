@@ -26,7 +26,7 @@ window.addEventListener('message', (event: MessageEvent) => {
         action: 'SDK_INIT_SUCCESS',
         id: event.data.id,
         payload: {
-          previewOrigin: project.template === 'node' ? null : 'https://test.nxpkg.io',
+          previewOrigin: project.template === 'node' ? null : 'https://test.nxpkg.github.io',
         },
       },
       '*',
