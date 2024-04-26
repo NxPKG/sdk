@@ -31,7 +31,7 @@ describe('createProjectFrameHTML', () => {
     const form = parent.querySelector('form')!;
     expect(form).toBeInstanceOf(HTMLFormElement);
     expect(form.getAttribute('action')).toBe(
-      'https://nxpkg.khulnasoft.com/run?embed=1&view=editor&terminalHeight=50'
+      'https://nxpkg.github.io/run?embed=1&view=editor&terminalHeight=50'
     );
   });
 });

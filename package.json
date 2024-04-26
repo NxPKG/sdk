@@ -1,9 +1,9 @@
 {
   "name": "@nx-pkg/sdk",
   "version": "1.9.0",
-  "description": "SDK for generating and embedding NxPKG projects.",
+  "description": "SDK for generating and embedding NxPkg projects.",
   "license": "MIT",
-  "author": "Eric Simons",
+  "author": "Nx Pkg",
   "homepage": "https://github.com/nxpkg/sdk",
   "repository": {
     "type": "git",

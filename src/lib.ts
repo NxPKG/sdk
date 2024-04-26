@@ -5,7 +5,7 @@ import { openNewProject, createProjectFrameHTML } from './generate';
 import { embedUrl, findElement, openTarget, openUrl, replaceAndEmbed } from './helpers';
 
 /**
- * Get a VM instance for an existing NxPKG project iframe.
+ * Get a VM instance for an existing NxPkg project iframe.
  */
 export function connect(frameEl: HTMLIFrameElement): Promise<VM> {
   if (!frameEl?.contentWindow) {
@@ -16,14 +16,14 @@ export function connect(frameEl: HTMLIFrameElement): Promise<VM> {
 }
 
 /**
- * Open an existing NxPKG project in a new tab (or in the current window).
+ * Open an existing NxPkg project in a new tab (or in the current window).
  */
 export function openProject(project: Project, options?: OpenOptions) {
   openNewProject(project, options);
 }
 
 /**
- * Open an existing NxPKG project in a new tab (or in the current window).
+ * Open an existing NxPkg project in a new tab (or in the current window).
  */
 export function openProjectId(projectId: string, options?: OpenOptions) {
   const url = openUrl(`/edit/${projectId}`, options);
@@ -68,7 +68,7 @@ export function embedProject(
 }
 
 /**
- * Embeds an existing NxPKG project on the current page.
+ * Embeds an existing NxPkg project on the current page.
  *
  * Returns a promise resolving to a VM instance.
  */

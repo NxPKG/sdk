@@ -28,7 +28,7 @@ async function embedProject() {
 }
 
 /**
- * Open the project in a new window on NxPKG
+ * Open the project in a new window on NxPkg
  */
 function openProject() {
   sdk.openGithubProject(selectedRepo.github, {

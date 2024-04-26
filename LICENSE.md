@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2018 Eric Simons and Albert Pai
+Copyright (c) 2018 Nx Nx Pkg
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
