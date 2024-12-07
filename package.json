@@ -42,7 +42,7 @@
     "@vitest/coverage-c8": "^0.29.8",
     "@vitest/ui": "^0.29.8",
     "body-parser": "^1.20.2",
-    "happy-dom": "^9.1.0",
+    "happy-dom": "^15.11.7",
     "lodash": "^4.17.21",
     "prettier": "^2.8.7",
     "rimraf": "^4.4.1",
